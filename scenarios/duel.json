@@ -1,0 +1,13 @@
+{
+    title: "Duel",
+    author: "Devindra Payment",
+    description: "A 1v1 fight of two units.",
+    players: 2,
+    abilities: 2,
+    width: 7,
+    height: 7,
+    setup: [
+    	{ x:1, y:3, unit: { owner: 1, abilities: [POUND, DEFEND] } },
+    	{ x:5, y:3, unit: { owner: 2, abilities: [DEFEND, POUND] } }
+    ]
+}

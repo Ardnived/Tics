@@ -1,0 +1,46 @@
+{
+    title: "Walls",
+    author: "Devindra Payment",
+    description: "Four players are initial seperated by walls that will come down after 2 or 3 turns.",
+    players: 4,
+    abilities: 2,
+    width: 9,
+    height: 9,
+    setup: [
+    	{ x:4, y:0, status: { BLOCKED:3 } },
+    	{ x:4, y:1, status: { BLOCKED:3 } },
+    	{ x:4, y:2, status: { BLOCKED:3 } },
+    	{ x:4, y:3, status: { BLOCKED:3 } },
+    	{ x:4, y:5, status: { BLOCKED:3 } },
+    	{ x:4, y:6, status: { BLOCKED:3 } },
+    	{ x:4, y:7, status: { BLOCKED:3 } },
+    	{ x:4, y:8, status: { BLOCKED:3 } },
+    	
+    	{ x:4, y:4, status: { BLOCKED:100 } },
+    	
+    	{ x:0, y:4, status: { BLOCKED:2 } },
+    	{ x:1, y:4, status: { BLOCKED:2 } },
+    	{ x:2, y:4, status: { BLOCKED:2 } },
+    	{ x:3, y:4, status: { BLOCKED:2 } },
+    	{ x:5, y:4, status: { BLOCKED:2 } },
+    	{ x:6, y:4, status: { BLOCKED:2 } },
+    	{ x:7, y:4, status: { BLOCKED:2 } },
+    	{ x:8, y:4, status: { BLOCKED:2 } },
+    	
+    	{ x:1, y:1, unit: { owner: 1 } },
+    	{ x:3, y:1, unit: { owner: 1 } },
+    	{ x:1, y:3, unit: { owner: 1, abilities: [TELEPORT] } },
+    	
+    	{ x:1, y:7, unit: { owner: 2 } },
+    	{ x:3, y:7, unit: { owner: 2 } },
+    	{ x:1, y:5, unit: { owner: 2, abilities: [TELEPORT] } },
+    	
+    	{ x:7, y:1, unit: { owner: 3 } },
+    	{ x:5, y:1, unit: { owner: 3 } },
+    	{ x:7, y:3, unit: { owner: 3, abilities: [TELEPORT] } },
+    	
+    	{ x:7, y:7, unit: { owner: 4 } },
+    	{ x:5, y:7, unit: { owner: 4 } },
+    	{ x:7, y:5, unit: { owner: 4, abilities: [TELEPORT] } }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    players: 2,
+    width: 7,
+    height: 7,
+    currentRound: 3,
+    currentPlayer: 2,
+    setup: [
+    	{ x:1, y:3,
+    		unit: {
+    			owner: 1,
+    			abilities: [POUND, DEFEND],
+    			hp: 10,
+    			status: { HASTE:1 }
+    		}
+    	},
+    	{ x:5, y:3,
+    		unit: {
+    			owner: 2,
+    			abilities: [POUND, DEFEND],
+    			hp: 3,
+    			move: 2,
+    			active: false,
+    			status: {}
+    		} 
+    	},
+    ],
+}

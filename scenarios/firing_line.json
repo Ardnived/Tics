@@ -1,0 +1,27 @@
+{
+    title: "Firing Line",
+    author: "Devindra Payment",
+    description: "Two rows of units are lines up across from each other. Each has the barrier and shoot ability.",
+    players: 2,
+    abilities: 2,
+    width: 10,
+    height: 10,
+    setup: [
+    	{ x:1, y:1, unit: { owner: 1, abilities: [SHOOT, BARRIER] } },
+    	{ x:1, y:2, unit: { owner: 1, abilities: [SHOOT, BARRIER] } },
+    	{ x:1, y:3, unit: { owner: 1, abilities: [SHOOT, BARRIER] } },
+    	{ x:1, y:4, unit: { owner: 1, abilities: [SHOOT, BARRIER] } },
+    	{ x:1, y:5, unit: { owner: 1, abilities: [SHOOT, BARRIER] } },
+    	{ x:1, y:6, unit: { owner: 1, abilities: [SHOOT, BARRIER] } },
+    	{ x:1, y:7, unit: { owner: 1, abilities: [SHOOT, BARRIER] } },
+    	{ x:1, y:8, unit: { owner: 1, abilities: [SHOOT, BARRIER] } },
+    	{ x:8, y:1, unit: { owner: 2, abilities: [SHOOT, BARRIER] } },
+    	{ x:8, y:2, unit: { owner: 2, abilities: [SHOOT, BARRIER] } },
+    	{ x:8, y:3, unit: { owner: 2, abilities: [SHOOT, BARRIER] } },
+    	{ x:8, y:4, unit: { owner: 2, abilities: [SHOOT, BARRIER] } },
+    	{ x:8, y:5, unit: { owner: 2, abilities: [SHOOT, BARRIER] } },
+    	{ x:8, y:6, unit: { owner: 2, abilities: [SHOOT, BARRIER] } },
+    	{ x:8, y:7, unit: { owner: 2, abilities: [SHOOT, BARRIER] } },
+    	{ x:8, y:8, unit: { owner: 2, abilities: [SHOOT, BARRIER] } }
+    ]
+}
